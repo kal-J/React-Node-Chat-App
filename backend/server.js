@@ -3,7 +3,6 @@ const http = require('http');
 const express = require('express');
 const cors = require('cors');
 const socketio = require('socket.io');
-const logger = require('morgan');
 const fs = require('fs');
 const dotenv = require('dotenv');
 const validateToken = require('./utils').validateToken;
@@ -113,8 +112,8 @@ const routes = require('./routes/index');
 
 app.use('/api/v1', routes(router));
 
-if (environment !== 'production') {
-  app.use(logger('dev'));
-}
+// if (environment !== 'production') {
+//   app.use(logger('dev'));
+// }
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));

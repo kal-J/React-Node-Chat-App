@@ -2,7 +2,7 @@ import { io } from 'socket.io-client';
 
 export const connectToSocketIO = (state, setState) => {
   console.log('ENTERED SOCKETS');
-  const socket = io('http://localhost:5000');
+  const socket = io('https://lan-chat-app.herokuapp.com');
 
   socket.on('connect', () => {
     console.log('SOCKET ID', socket.id);

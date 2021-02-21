@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-const endpoint = 'http://localhost:5000';
+const endpoint = 'https://lan-chat-app.herokuapp.com';
 
 const login = (data) => {
   return new Promise((resolve, reject) => {

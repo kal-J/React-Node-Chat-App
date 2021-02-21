@@ -8,8 +8,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server",
-    "start": "node server.js",
-    "build": "node server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",

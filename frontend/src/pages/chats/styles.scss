@@ -1,0 +1,36 @@
+.sent-message {
+  display: flex;
+  flex-direction: row-reverse;
+  .message {
+    width: fit-content;
+    padding: 1em;
+    background-color: #cfddcf;
+    border-radius: 4em;
+  }
+}
+
+.received-message {
+  .message {
+    width: fit-content;
+    padding: 1em;
+    background-color: #cfcccc;
+    border-radius: 4em;
+  }
+}
+
+.chat-top-bar {
+  color: #000;
+  background-color: #f7f3f3;
+  border-bottom: 1px solid #000;
+}
+
+.message-text {
+  width: 100%;
+  height: 50px;
+}
+
+.chat-messages {
+  height: 65vh;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "username": "kalujja",
+    "email": "kal@gmail.com",
+    "password": "$2b$10$B2Wxw/xAs9.zZiT.87Fj7emLLN5DN082VRg4T1.MzaWy2uRcGcAjq",
+    "createdAt": 1613895235303
+  },
+  {
+    "username": "kal-J",
+    "email": "kalujja.dev@gmail.com",
+    "password": "$2b$10$B1eJJSLHwOr/LyymmL1/A.bjiVH7yieGdHHgD49ks1sJCQ/aK5pQ.",
+    "createdAt": 1613903221141
+  },
+  {
+    "username": "kal_code",
+    "email": "kalcode@gmail.com",
+    "password": "$2b$10$g2SSvezghpfnxqpRcp3QSO5NeUb6y3dppfCBxhnq4FHVT75y4.SLu",
+    "createdAt": 1613904524319
+  },
+  {
+    "username": "kharljay15@gmail.com",
+    "email": "kharljay15@gmail.com",
+    "password": "$2b$10$I7b9ZTVEN3kCydWYd.gIYO5E46bD2aTGbFyBdifKLk2ZXsJyULRw6",
+    "createdAt": 1613905478451
+  }
+]

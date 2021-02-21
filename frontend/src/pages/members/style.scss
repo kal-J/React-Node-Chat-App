@@ -1,0 +1,18 @@
+.chat {
+  background-color: #e5e5f0;
+  border-radius: 4px;
+
+  .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 4em;
+    border-radius: 2em;
+    background-color: #fff;
+  }
+}
+
+.message-box {
+  background-color: #808080;
+}
